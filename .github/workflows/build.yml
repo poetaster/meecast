@@ -3,9 +3,9 @@ name: Github CI build
 on: 
   push:
     tags:
-      - "v*"
-      branches:
-        - sailfishos
+      - '*'
+    branches:
+      - sailfishos
 env:
   OS_VERSION: 4.4.0.68
 
@@ -38,7 +38,7 @@ jobs:
         path: output
   release:
     name: Release
-    if: startsWith(github.ref, 'refs/tags/v')
+    if: startsWith(github.ref, 'refs/tags/')
     needs:
       - build
     runs-on: ubuntu-latest
