@@ -14,7 +14,7 @@
 
 Name:       meecast
 Summary:    Weather for Meego
-Version:    0.4.1
+Version:    1.1.35
 Release:    1
 Group:      Utility
 License:    GPLv2.1
