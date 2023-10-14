@@ -37,6 +37,7 @@ BuildRequires:  pkgconfig(dconf)
 BuildRequires:  libkeepalive-devel
 BuildRequires:  mlite-qt5-devel
 BuildRequires:  pkgconfig(Qt5Concurrent)
+BuildRequires:  qml(Sailfish.Silica)
 #BuildRequires:  libqt-devel
 BuildRequires: qt5-qtpositioning-devel
 #Requires:      qt5-qtpositioning 
